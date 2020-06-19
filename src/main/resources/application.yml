@@ -1,0 +1,15 @@
+spring:
+                    datasource:
+                      url: jdbc:mysql://120.79.11.126:3306/tdcms?useUnicode=true&characterEncoding=utf-8&serverTimezone=UTC
+                      username: root
+                      password: 1234556
+                      driver-class-name: com.mysql.jdbc.Driver
+                      druid:
+                        initial-size: 1
+                        min-idle: 1
+                        max-active: 20
+                        test-on-borrow: true
+                        stat-view-servlet:
+                          allow: true
+                    server:
+                      port: 8089
